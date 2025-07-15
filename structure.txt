@@ -1,0 +1,17 @@
+~/yolo_keyboard_project/
+├── venv/                   ← Python virtual environment
+├── data/                   ← Raw and split images+annotations
+│   ├── raw/                ← Downloaded Kaggle dataset: images + XMLs
+│   ├── images/             ← Split image files
+│   │   ├── train/
+│   │   ├── val/
+│   │   └── test/
+│   └── labels/             ← Converted YOLO TXT labels
+│       ├── train/
+│       ├── val/
+│       └── test/
+├── scripts/                ← Helper Python scripts
+│   ├── split_data.py
+│   └── convert_voc_to_yolo.py
+├── data.yaml               ← YOLOv8 dataset config
+└── train_yolo.sh           ← Shell script to launch training

@@ -1,0 +1,44 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+*/venv/
+*/.venv/
+
+# Dataset caches
+data/labels/*.cache
+data/images/train.cache
+data/images/val.cache
+data/images/test.cache
+
+# Model weights and exports
+*.pt
+*.onnx
+YOLOv8/
+yolo11n.pt
+yolov8n.pt
+yolov8s.pt
+
+# Ultralytics cache and temp files
+*.yaml~ 
+*.log
+ultralytics-assets/
+
+# Runs output
+runs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor & IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# DATASET
+data/*
